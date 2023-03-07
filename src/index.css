@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  color: #54595e;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 80px;
+}

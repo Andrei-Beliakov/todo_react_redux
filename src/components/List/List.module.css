@@ -1,0 +1,125 @@
+.container {
+  width: 594px;
+  margin: 0 auto;
+  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.add_field {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 24px;
+}
+
+.list {
+  background: #ffffff;
+  border-top: 1px solid #dee2e6;
+  display: none;
+}
+
+.delete_field {
+  justify-content: space-between;
+  display: none;
+  background: #f5f5f5;
+  padding: 18px 24px;
+}
+
+.form__input {
+  display: block;
+  width: 356px;
+  height: 38px;
+  outline: none;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 9px 31px 8px 14px;
+  box-shadow: none;
+  transition: 0.2s;
+}
+
+.form__button {
+  height: 39px;
+  padding: 10px 16px;
+  color: #ffffff;
+  border: none;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.form__button:hover {
+  background-color: rgb(223, 172, 33);
+}
+
+.add {
+  width: 166px;
+  background: #272829;
+}
+
+.delete_done {
+  width: 218px;
+  background: #6c757d;
+}
+
+.delete_all {
+  background: #dc3545;
+}
+
+.list {
+  padding: 32px 24px 7px 24px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*
+.list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.todo__done {
+  outline: none;
+  margin-right: 16px;
+}
+
+.todo__done:checked + .todo__name {
+  color: #a9acaf;
+  text-decoration: line-through;
+}
+
+.todo__delete {
+  outline: none;
+  margin-left: 16px;
+  background: #ffffff;
+  border: 0;
+}
+
+.todo__name {
+  text-align: left;
+  width: 100%;
+}
+
+.delete_button:hover {
+  color: blue;
+}
+*/
+
+.display_block {
+  display: block;
+}
+
+.display_flex {
+  display: flex;
+}
